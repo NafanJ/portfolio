@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+
+.header{
+    display: flex;
+    background-color: #006094;
+    justify-content: space-between;
+}
+
+/* Logo Styling */
+
+.header-left > img{
+    padding-left: 10px;
+    max-width: 50px;
+    max-height: auto;
+}
+
+/* Navbar Styling */
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.header-right > ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    padding-right: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* Hero Styling */
+
+.hero-content{
+    background-image: url('../images/hero-background.jpg');
+    height: 470px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Project Styling */
+
+.projects{
+    padding-top: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.project{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border: #F7B733 1px solid;
+    border-radius: 5px;
+}
+
+.project > img{
+    width: 33%;
+}
